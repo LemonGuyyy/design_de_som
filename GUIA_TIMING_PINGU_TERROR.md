@@ -172,21 +172,284 @@ Baseado na tua documentação do vídeo:
 
 ---
 
-## 🔧 CONFIGURAÇÕES RECOMENDADAS NO REAPER
+## 🔧 PROCESSAMENTO DE CADA SOM NO REAPER
 
-### Efeitos por Track
+### 🎬 ÁUDIO ORIGINAL DO PINGU (Track 1)
 
-| Track | Plugin | Configuração |
-|-------|--------|--------------|
-| TODOS os sons | **ReaEQ** | Cortar frequências abaixo de 60Hz (limpa a mix) |
-| Violinos | **ReaVerb** | Room Size: Large, Wet: 40% |
-| Growls | **ReaPitch** | Baixar -3 a -5 semitons (mais ameaçador) |
-| Whispers | **ReaDelay** | Delay curto (100ms), Feedback 30% |
-| Impacts | **ReaComp** | Compressão leve para punch |
+**O que fazer:** O áudio original do Pingu DEVE ser drasticamente alterado ou removido.
 
-### Master Bus
-- **ReaComp** - Ratio 4:1, Threshold -12dB (cola a mix)
-- **ReaLimit** - Ceiling -0.3dB (evita clipping)
+| Opção | Como fazer | Resultado |
+|-------|------------|-----------|
+| **Opção A: Remover quase tudo** | Volume a -30dB ou menos | Só se ouvem sons muito distantes |
+| **Opção B: Abafar** | ReaEQ → Cortar tudo acima de 500Hz | Som abafado, distante, sufocante |
+| **Opção C: Distorcer** | ReaPitch → Baixar -6 semitons + Playrate 0.8x | Vozes distorcidas e sinistras |
+
+**Configuração recomendada:**
+```
+Track: Pingu Original
+├── Volume: -25dB a -35dB (quase inaudível)
+├── FX: ReaEQ
+│   ├── Low-pass filter: 400Hz (corta agudos)
+│   └── High-pass filter: 100Hz (corta sub-graves)
+├── FX: ReaVerb (opcional)
+│   └── Wet: 60%, Room: Large (som distante)
+└── Automação: Mute nos momentos de maior tensão
+```
+
+---
+
+### 🌬️ WIND (Background_wind.m4a)
+
+**Função:** Atmosfera base durante TODO o vídeo
+
+| Parâmetro | Valor | Notas |
+|-----------|-------|-------|
+| Volume | 60-70% | Constante, nunca domina |
+| Pan | Centro | Ambiente envolvente |
+| Fade In | 3 segundos | Entrada suave no início |
+| Fade Out | 2 segundos | Saída no final |
+| Loop | Sim | Repetir durante todo o vídeo |
+
+**FX:** Nenhum necessário (já está bom)
+
+---
+
+### 🧊 ICE (breaking_ice_01.wav)
+
+**Função:** Textura sinistra, desconforto
+
+| Parâmetro | Valor | Notas |
+|-----------|-------|-------|
+| Volume | 25-35% | Subtil, textura de fundo |
+| Pan | Mover L↔R | Automação de pan lenta |
+| Posição | Vários momentos | Usa partes diferentes do ficheiro |
+
+**FX:**
+```
+├── ReaEQ: Boost em 200-400Hz (+3dB) - mais corpo
+├── ReaVerb: Wet 30%, Room Medium - espaço
+└── ReaPitch: -2 semitons (opcional) - mais grave
+```
+
+---
+
+### ⏰ TICK (tictacmix.wav)
+
+**Função:** Tensão psicológica, contagem regressiva
+
+| Parâmetro | Valor | Notas |
+|-----------|-------|-------|
+| Volume | 35% → 90% | Começa baixo, aumenta com tensão |
+| Pan | Centro | Sempre centrado |
+| Playrate | 1.0x → 1.3x | Acelera nos momentos de pânico |
+
+**FX:**
+```
+├── ReaEQ: Boost em 2kHz (+4dB) - mais presença/clique
+├── ReaDelay: 50ms, Feedback 20% - ligeiro eco
+└── Automação de Volume: Sobe gradualmente até ATO 4
+```
+
+---
+
+### 🎻 VIOLIN1 (scaryviolins.ogg)
+
+**Função:** Melodia de tensão, atmosfera sinistra
+
+| Parâmetro | Valor | Notas |
+|-----------|-------|-------|
+| Volume | 25-40% | Nunca muito alto, fundo musical |
+| Pan | Centro | Envolve o ouvinte |
+| Fade In | 2-3 segundos | Entra suavemente |
+
+**FX:**
+```
+├── ReaVerb: Wet 40-50%, Room Large - espaço cinematográfico
+├── ReaEQ: Cortar abaixo de 150Hz - limpa graves
+└── Sem pitch shift - mantém tom original
+```
+
+---
+
+### 🎻 VIOLIN2 (horror-violin-tremolo.wav)
+
+**Função:** CLÍMAX, terror máximo, momentos de susto
+
+| Parâmetro | Valor | Notas |
+|-----------|-------|-------|
+| Volume | 70-100% | ALTO nos momentos de susto |
+| Pan | Centro | Impacto central |
+| Fade In | 0.5s ou corte seco | Entrada abrupta para susto |
+
+**FX:**
+```
+├── ReaVerb: Wet 35%, Room Large
+├── ReaComp: Ratio 3:1, Threshold -15dB - mais punch
+└── Automação: Volume sobe rapidamente nos sustos
+```
+
+---
+
+### 🐉 GROWL (dinosaur-dragon-growls.wav)
+
+**Função:** Presença ameaçadora, "a criatura"
+
+| Parâmetro | Valor | Notas |
+|-----------|-------|-------|
+| Volume | 15% → 80% | Muito baixo no início, alto no ataque |
+| Pan | Mover L↔R | Automação - criatura move-se |
+| Pitch | -4 a -6 semitons | MAIS GRAVE = mais ameaçador |
+
+**FX:**
+```
+├── ReaPitch: -4 a -6 semitons (OBRIGATÓRIO)
+├── ReaEQ: Boost em 80-150Hz (+5dB) - mais peso
+├── ReaVerb: Wet 25%, Room Medium
+└── Automação de Pan: Move esquerda-direita lentamente
+```
+
+---
+
+### 💥 IMPACT1, IMPACT2, IMPACT3 (Cinematic Impacts)
+
+**Função:** Jump scares, momentos de susto
+
+| Parâmetro | Valor | Notas |
+|-----------|-------|-------|
+| Volume | 80-100% | MÁXIMO para susto |
+| Pan | Centro (ou L/R alternado) | Varia para diferentes sustos |
+| Fade In | NENHUM | Corte seco = mais susto |
+
+**FX:**
+```
+├── ReaComp: Ratio 4:1, Attack rápido - mais punch
+├── ReaEQ: Boost em 60-100Hz (+4dB) - mais peso
+├── ReaLimit: Ceiling -1dB - evita clipping
+└── IMPORTANTE: Silêncio de 0.5s ANTES de cada impacto
+```
+
+---
+
+### 📈 RISER1, RISER2, RISER3, RISER4 (Tension Build-ups)
+
+**Função:** Construir tensão ANTES dos sustos
+
+| Parâmetro | Valor | Notas |
+|-----------|-------|-------|
+| Volume | 40% → 70% | Aumenta gradualmente |
+| Pan | Centro | Envolvente |
+| Posição | 5-10s ANTES do impacto | Prepara o susto |
+
+**FX:**
+```
+├── ReaVerb: Wet 30%, Room Large
+├── ReaEQ: Boost gradual em agudos (automação)
+└── Automação de Volume: Sempre a subir até o susto
+```
+
+**REGRA:** Riser termina → 0.5s silêncio → IMPACTO
+
+---
+
+### 🎹 PIANO (Scary Piano Hit)
+
+**Função:** Acentos dramáticos, mini-sustos
+
+| Parâmetro | Valor | Notas |
+|-----------|-------|-------|
+| Volume | 50-65% | Menos que os impactos principais |
+| Pan | Centro ou ligeiro L/R | Varia |
+| Reverb | Muito | Nota sustentada |
+
+**FX:**
+```
+├── ReaVerb: Wet 50-60%, Decay longo (3s+)
+├── ReaEQ: Boost em graves 100Hz (+3dB)
+└── Fade Out longo: 2-3 segundos
+```
+
+---
+
+### ❤️ HEART1 (horror heart beat 8bpm)
+
+**Função:** Medo visceral, tensão subliminar
+
+| Parâmetro | Valor | Notas |
+|-----------|-------|-------|
+| Volume | 20-35% | SUBTIL, quase subliminar |
+| Pan | Centro | Interno ao corpo |
+| Loop | Sim | Contínuo durante cenas de medo |
+
+**FX:**
+```
+├── ReaEQ: Cortar acima de 200Hz (só graves)
+├── ReaComp: Ratio 2:1 - uniformiza
+└── Sem reverb - som íntimo/interno
+```
+
+---
+
+### ❤️ HEART2 (heart beat increasing)
+
+**Função:** Pânico crescente
+
+| Parâmetro | Valor | Notas |
+|-----------|-------|-------|
+| Volume | 35% → 75% | Sobe com a tensão |
+| Pan | Centro | Interno |
+| Posição | Antes dos clímax | Culmina nos sustos |
+
+**FX:** Mesmo que HEART1
+
+---
+
+### 👻 BREATH (Horror Scary Breathing)
+
+**Função:** Presença sobrenatural
+
+| Parâmetro | Valor | Notas |
+|-----------|-------|-------|
+| Volume | 20-40% | Inquietante mas não dominante |
+| Pan | L ou R (não centro) | Presença "ao lado" |
+| Reverb | Médio | Espaço vazio |
+
+**FX:**
+```
+├── ReaVerb: Wet 35%, Room Medium
+├── ReaDelay: 150ms, Feedback 25% - eco fantasmagórico
+└── ReaEQ: Cortar graves abaixo de 100Hz
+```
+
+---
+
+### 👻 WHISPER (Creepy Whispering)
+
+**Função:** Elemento sobrenatural, vozes do além
+
+| Parâmetro | Valor | Notas |
+|-----------|-------|-------|
+| Volume | 15-35% | Subtil, quase inaudível |
+| Pan | Automação L↔R | Move-se no espaço |
+| Reverb | MUITO | Distante, etéreo |
+
+**FX:**
+```
+├── ReaVerb: Wet 50-60%, Room Large, Decay 4s+
+├── ReaDelay: 200ms, Feedback 40% - múltiplas vozes
+├── ReaEQ: Cortar graves, boost suave em 3kHz
+└── Automação de Pan: Movimento fantasmagórico
+```
+
+---
+
+### Master Bus (Track Principal)
+
+**FX a aplicar no MASTER:**
+```
+├── ReaEQ: High-pass 40Hz (limpa sub-graves)
+├── ReaComp: Ratio 3:1, Threshold -12dB (cola a mix)
+└── ReaLimit: Ceiling -0.3dB (evita clipping no export)
+```
 
 ---
 
