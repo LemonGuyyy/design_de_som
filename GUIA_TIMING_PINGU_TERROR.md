@@ -5,7 +5,17 @@
 
 ---
 
-## 📋 LEGENDA DOS SONS
+## � DESCRIÇÃO DO VÍDEO ORIGINAL
+
+**Episódio:** "Pingu As A Chef" (Pingu - Canal Oficial)
+
+**Sinopse:** Pingu e Pinga estão sozinhos em casa e com fome. Decidem fazer pipocas. Pingu prepara a frigideira e as pipocas começam a saltar. Depois de comerem, discutem sobre as últimas pipocas e decidem fazer mais. Pingu encontra uma grande quantidade de milho no armário e põe tudo numa panela grande. As pipocas começam a transbordar descontroladamente, enchendo a casa toda. Em pânico, Pingu e Pinga tentam controlar a situação. Acabam por sair de casa e distribuir as pipocas pelos vizinhos da vila.
+
+**Reinterpretação Horror:** As pipocas inocentes tornam-se uma "criatura" que cresce, ataca e se propaga. A comédia transforma-se em terror psicológico onde os protagonistas perdem o controlo e, no final, espalham involuntariamente o "mal" pela comunidade.
+
+---
+
+## �📋 LEGENDA DOS SONS
 
 ### Sons que JÁ TENS
 | Código | Som | Tipo |
@@ -35,108 +45,130 @@
 
 ---
 
-## 🎯 ESTRUTURA DO EPISÓDIO
+## 🎯 ESTRUTURA DO EPISÓDIO (Timestamps Reais)
 
-O episódio divide-se em **5 atos principais**:
+Baseado na tua documentação do vídeo:
 
-| Ato | Timing | Descrição Original | Reinterpretação Horror |
-|-----|--------|---------------------|------------------------|
-| 1 | 0:00-0:30 | Pingu e Pinga em casa, com fome | **Abandono sinistro** - algo está errado |
-| 2 | 0:30-1:00 | Encontram milho, põem no fogão | **Ritual perigoso** - invocam algo |
-| 3 | 1:00-1:30 | Pipocas começam a saltar | **A criatura desperta** - perde-se controlo |
-| 4 | 1:30-2:10 | Pipocas transbordam, caos | **ATAQUE** - terror total, perseguição |
-| 5 | 2:10-2:41 | Distribuem pipocas pela vila | **Propagação do mal** - o horror espalha-se |
+| Tempo | O que acontece | Reinterpretação Horror |
+|-------|----------------|------------------------|
+| 0:00-0:03 | Início do episódio | Atmosfera sinistra inicial |
+| 0:03-0:20 | Pingu prepara a frigideira | **Preparação do ritual** |
+| 0:20 | Pipocas começam a saltar na frigideira | **Algo desperta** |
+| 0:26 | Pingu põe uma tampa | **Tenta conter a criatura** |
+| 0:30 | Pipocas ficam prontas, começam a comer | **Falsa calma** |
+| 0:30-1:00 | Comem e falam um bocadinho | **Tensão crescente** |
+| ~1:00 | Vão buscar mais milho ao armário | **Invocação maior** |
+| 1:00-1:15 | Põem muito milho no forno, começa a saltar | **A criatura cresce** |
+| 1:15 | Pipocas vão atrás deles, saltam do forno | **ATAQUE COMEÇA** |
+| 1:20 | Casa fica cheia de pipocas | **Caos total** |
+| 1:20-1:46 | Eles pensam no que fazer, arrumam pipocas | **Tentam sobreviver** |
+| 1:46 | Saem de casa | **Fuga** |
+| 1:54-1:58 | Encontram um vizinho | **Propagação do mal** |
+| 2:05 | Vão ter com outras pessoas | **O horror espalha-se** |
+| 2:12 | Entregam pipocas noutra casa | **Contaminação** |
+| 2:18 | Deixam entrar em casa | **Infiltração** |
+| 2:23 | Começam noutra casa | **Multiplicação** |
+| 2:30 | Vão para outra casa | **Propagação continua** |
+| 2:34 | Noutra casa | **Horror generalizado** |
+| 2:39 | Deixa pipocas e vai-se embora, fim | **Final sinistro** |
 
 ---
 
 ## 🎧 CUE SHEET DETALHADO
 
-### ATO 1: "A Casa Abandonada" (0:00 - 0:30)
-*Objetivo: Estabelecer atmosfera sinistra*
+### ATO 1: "Preparação Sinistra" (0:00 - 0:26)
+*Objetivo: Estabelecer atmosfera de tensão*
 
 | Tempo | Som | Volume | Pan | Notas |
 |-------|-----|--------|-----|-------|
 | 0:00 | `WIND` | 70% | C | FADE IN lento (3s) |
-| 0:00 | `HEART1` | 30% | C | Muito subtil, quase subliminar |
-| 0:05 | `WHISPER` | 20% | L | Sussurro muito distante |
-| 0:10 | `BREATH` | 25% | R | Respiração leve |
-| 0:15 | `TICK` | 40% | C | Começa tic-tac (tensão psicológica) |
-| 0:20 | `GROWL` | 15% | L→R | Muito baixo, quase inaudível |
+| 0:00 | `HEART1` | 25% | C | Muito subtil, quase subliminar |
+| 0:05 | `WHISPER` | 15% | L | Sussurro muito distante |
+| 0:10 | `BREATH` | 20% | R | Respiração leve |
+| 0:15 | `TICK` | 35% | C | Começa tic-tac (tensão psicológica) |
+| 0:20 | `RISER1` | 40% | C | Build-up - pipocas começam a saltar |
+| 0:20 | `PIANO` | 50% | C | Hit quando pipocas começam |
+| 0:26 | `IMPACT1` | 60% | C | Hit quando põe a tampa |
 
-**Dica:** Remove quase TODO o áudio original do Pingu nesta secção. Deixa só alguns sons muito abafados.
-
----
-
-### ATO 2: "O Ritual" (0:30 - 1:00)
-*Objetivo: Construir tensão antes do caos*
-
-| Tempo | Som | Volume | Pan | Notas |
-|-------|-----|--------|-----|-------|
-| 0:30 | `RISER1` | 40% | C | Inicia build-up lento |
-| 0:30 | `VIOLIN1` | 30% | C | FADE IN suave |
-| 0:35 | `TICK` | 60% | C | Aumenta volume do tic-tac |
-| 0:40 | `PIANO` | 50% | C | Hit quando acendem o fogão |
-| 0:45 | `ICE` | 35% | L | Textura sinistra |
-| 0:50 | `HEART2` | 45% | C | Batimento começa a acelerar |
-| 0:55 | `RISER2` | 60% | C | Tensão a crescer |
-
-**Dica:** O momento em que põem o milho no fogão = momento "invocação". Usa um `PIANO` hit sincronizado.
+**Dica:** Remove quase TODO o áudio original do Pingu. Deixa só alguns sons muito abafados.
 
 ---
 
-### ATO 3: "O Despertar" (1:00 - 1:30)
-*Objetivo: A criatura (pipocas) ganha vida*
+### ATO 2: "Falsa Calma" (0:26 - 1:00)
+*Objetivo: Tensão crescente enquanto comem*
 
 | Tempo | Som | Volume | Pan | Notas |
 |-------|-----|--------|-----|-------|
-| 1:00 | `IMPACT1` | 80% | C | **PRIMEIRO JUMP SCARE** - primeira pipoca |
-| 1:00 | `VIOLIN2` | 70% | C | Entra com força |
-| 1:02 | **SILÊNCIO** | - | - | Para TUDO por 0.5s |
-| 1:02.5 | `GROWL` | 60% | C | A "criatura" acorda |
-| 1:05 | `RISER3` | 70% | C | Build-up intenso |
-| 1:10 | `WHISPER` | 50% | L+R | Múltiplas vozes |
-| 1:15 | `HEART2` | 75% | C | Batimento muito rápido |
-| 1:20 | `ICE` | 50% | Pan movimento | Textura caótica |
-| 1:25 | `IMPACT2` | 90% | C | Explosão - tampão salta |
+| 0:26 | `WIND` | 50% | C | Baixa um pouco (falsa calma) |
+| 0:30 | `VIOLIN1` | 25% | C | FADE IN muito suave |
+| 0:35 | `TICK` | 40% | C | Tic-tac subtil enquanto comem |
+| 0:40 | `WHISPER` | 20% | L+R | Sussurros enquanto falam |
+| 0:45 | `ICE` | 30% | L | Textura sinistra |
+| 0:50 | `HEART1` | 35% | C | Batimento subtil |
+| 0:55 | `RISER2` | 50% | C | Build-up - vão buscar mais milho |
+| 1:00 | `GROWL` | 30% | C | Grunhido quando abrem armário |
 
-**Dica:** Usa silêncios de 0.5-1s ANTES dos impactos. O silêncio amplifica o susto!
+**Dica:** Momento do armário com milho = "invocação maior". Usa `GROWL` baixo.
 
 ---
 
-### ATO 4: "O ATAQUE" (1:30 - 2:10)
-*Objetivo: Terror máximo, perseguição, caos*
+### ATO 3: "O Despertar" (1:00 - 1:20)
+*Objetivo: A criatura (pipocas) cresce e ataca*
 
 | Tempo | Som | Volume | Pan | Notas |
 |-------|-----|--------|-----|-------|
-| 1:30 | `VIOLIN2` | 100% | C | Volume máximo |
-| 1:30 | `GROWL` | 80% | C | Grunhidos constantes |
-| 1:35 | `IMPACT3` | 85% | L | Hit à esquerda |
-| 1:40 | `IMPACT1` | 85% | R | Hit à direita |
-| 1:45 | `BREATH` | 60% | C | Respiração ofegante |
-| 1:50 | `RISER4` | 80% | C | Tensão nunca para |
-| 1:55 | `TICK` | 100% | C | Tic-tac frenético |
-| 2:00 | `IMPACT2` | 100% | C | **CLÍMAX** - impacto mais forte |
-| 2:05 | `HEART1` | 50% | C | Batimento começa a abrandar |
+| 1:00 | `RISER3` | 60% | C | Build-up intenso |
+| 1:05 | `VIOLIN2` | 50% | C | Violino tremolo entra |
+| 1:10 | `HEART2` | 60% | C | Batimento acelera |
+| 1:14 | **SILÊNCIO** | - | - | Para TUDO por 0.5s |
+| 1:15 | `IMPACT2` | 90% | C | **JUMP SCARE** - pipocas vão atrás deles! |
+| 1:15 | `GROWL` | 70% | C | Grunhido forte |
+| 1:16 | `VIOLIN2` | 85% | C | Violino máximo |
+| 1:18 | `WHISPER` | 50% | L+R | Vozes caóticas |
+| 1:20 | `IMPACT1` | 85% | C | Casa cheia - impacto |
 
-**Dica:** Este é o momento de usar TODOS os sons em camadas. Cria caos sonoro!
+**Dica:** O momento 1:15 é o PONTO CRÍTICO - pipocas atacam! Maior susto aqui.
 
 ---
 
-### ATO 5: "A Propagação" (2:10 - 2:41)
-*Objetivo: Horror subtil, o mal espalha-se*
+### ATO 4: "CAOS E FUGA" (1:20 - 1:46)
+*Objetivo: Terror máximo, tentam sobreviver*
 
 | Tempo | Som | Volume | Pan | Notas |
 |-------|-----|--------|-----|-------|
-| 2:10 | TODOS | FADE OUT | C | Baixa tudo gradualmente |
-| 2:15 | `WIND` | 60% | C | Volta a atmosfera calma (falsa) |
-| 2:20 | `WHISPER` | 30% | L→R | Sussurros movem-se |
-| 2:25 | `VIOLIN1` | 40% | C | Melodia sinistra suave |
-| 2:30 | `HEART1` | 20% | C | Batimento lento final |
-| 2:35 | `GROWL` | 10% | L | Último grunhido muito baixo |
-| 2:38 | **SILÊNCIO** | - | - | Para TUDO |
-| 2:40 | `IMPACT3` | 100% | C | **JUMP SCARE FINAL** (opcional) |
+| 1:20 | `VIOLIN2` | 100% | C | Volume máximo |
+| 1:20 | `GROWL` | 80% | C | Grunhidos constantes |
+| 1:25 | `BREATH` | 60% | C | Respiração ofegante |
+| 1:28 | `IMPACT3` | 85% | L | Hit - arrumam pipocas |
+| 1:32 | `TICK` | 90% | C | Tic-tac frenético |
+| 1:36 | `RISER4` | 80% | C | Tensão continua |
+| 1:40 | `WHISPER` | 40% | L+R | Vozes |
+| 1:44 | `RISER3` | 70% | C | Build-up para fuga |
+| 1:46 | `IMPACT2` | 95% | C | **IMPACTO** - saem de casa! |
 
-**Dica:** Termina com um susto inesperado OU com silêncio perturbador. Tu decides!
+**Dica:** Quando saem de casa (1:46) = momento de alívio falso. Grande impacto!
+
+---
+
+### ATO 5: "Propagação do Mal" (1:46 - 2:39)
+*Objetivo: O horror espalha-se pela vila*
+
+| Tempo | Som | Volume | Pan | Notas |
+|-------|-----|--------|-----|-------|
+| 1:46 | `WIND` | 50% | C | Exterior - atmosfera diferente |
+| 1:50 | `VIOLIN1` | 35% | C | Melodia sinistra suave |
+| 1:54 | `WHISPER` | 30% | L | Encontram vizinho - sussurro |
+| 1:58 | `PIANO` | 40% | C | Hit subtil |
+| 2:05 | `HEART1` | 25% | C | Batimento lento |
+| 2:12 | `GROWL` | 20% | R | Grunhido baixo - entregam pipocas |
+| 2:18 | `WHISPER` | 35% | L+R | Deixam entrar em casa |
+| 2:23 | `ICE` | 25% | C | Textura sinistra |
+| 2:30 | `VIOLIN1` | 40% | C | Outra casa |
+| 2:34 | `RISER1` | 50% | C | Build-up final |
+| 2:37 | **SILÊNCIO** | - | - | Para TUDO |
+| 2:39 | `IMPACT3` | 100% | C | **JUMP SCARE FINAL** - fim do vídeo! |
+
+**Dica:** Termina com impacto forte no último frame = susto inesperado!
 
 ---
 
