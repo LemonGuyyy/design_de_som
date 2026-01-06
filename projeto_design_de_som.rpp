@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.53/win64" 1767652987 0
+<REAPER_PROJECT 0.1 "7.53/win64" 1767729571 0
   <NOTES 0 2
   >
   RIPPLE 0 0
@@ -19,9 +19,9 @@
   VIDEO_CONFIG 0 0 65792
   PANMODE 3
   PANLAWFLAGS 3
-  CURSOR 252.98329425470786
-  ZOOM 6.49054715188745 620 0
-  VZOOMEX 5.84923649 265
+  CURSOR 123.25889913548863
+  ZOOM 18.09988511555571 1556 0
+  VZOOMEX 1.75 355
   USE_REC_CFG 0
   RECMODE 1
   SMPTESYNC 0 30 100 40 1000 300 0 0 1 0 0
@@ -146,7 +146,7 @@
         IQAAAAUAAAADAAAAAQAAAAAAAAAAAHlAAAAAAAAA8D+amZmZmZnpPwEIAAAAAQAAAAAAAAAAwHJAAAAAAAAA8D8AAAAAAAAAQAEEAAAAAQAAAAAAAAAAAFlAAAAAAAAA
         8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAiLNAAAAAAAAA8D+amZmZmZnpPwEEAAAAAAAAAAAAAAAAAFlAAAAAAAAA8D8AAAAAAAAAQAEBAAAAAQAAAAAAAAAAAPA/AAAA
         AP0BAABcAQAAAgAAAA==
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {4AA08E54-C803-448E-98A3-BDE5DDA57619}
@@ -155,7 +155,7 @@
       <VST "VST: ReaVerbate (Cockos)" reaverbate.dll 0 "" 1920361016<56535472766238726561766572626174> ""
         OGJ2cu9e7f4CAAAAAQAAAAAAAAACAAAAAAAAAAIAAAABAAAAAAAAAAIAAAAAAAAAKAAAAAAAAAAAABAA
         776t3g3wrd7c30Q+adT3PkkqYz9Ngcw+AACAP4V7JT0AAEA/CtejOw==
-        AAAQAAAA
+        AFByb2dyYW0gMQAQAAAA
       >
       FLOATPOS 0 0 0 0
       FXID {2D223CBF-D785-46B4-8B55-55E04467D9C7}
@@ -221,7 +221,8 @@
       PT 0 0.20892961 0
       PT 9.39828316 0.17378008 0
       PT 66.09612255 0.14454398 0
-      PT 72.25893118 1.78014984 0
+      PT 71.77789521 0.05888437 0
+      PT 77.29927176 0.09332543 0
     >
     <PANENV2
       EGUID {5E37D8F2-DF40-4DB4-869E-787DF9EF4CB5}
@@ -270,7 +271,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
-    SEL 1
+    SEL 0
     REC 0 0 1 0 0 0 0 0
     VU 64
     TRACKHEIGHT 0 0 0 0 0 0 0
@@ -361,8 +362,17 @@
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
       PT 1.07849151 0.12882496 0
-      PT 37.59313264 0.16218101 0
-      PT 72.56707162 1 0
+      PT 36.0050964 0.16061002 0
+      PT 40.59328255 0.20407933 0
+      PT 40.59378255 0.13221174 0
+      PT 48.84954219 0.13939758 0
+      PT 48.85004219 0.3162496 0
+      PT 64.64079427 0.69738761 0
+      PT 72.89655391 0.99995748 0
+      PT 79.13879037 0.99998963 0
+      PT 83.40821474 0.51436336 0
+      PT 85.48794713 0.39287577 0
+      PT 87.39555 1 0
     >
     <PANENV2
       EGUID {2610AE59-4B1C-41AA-98EC-5031875DDDCC}
@@ -391,6 +401,50 @@
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {E1651C17-B702-4A03-9403-DB19BFB74FCF}
+      <SOURCE MP3
+        FILE "Media\Creepy-whispering-sound-effect.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 40.59378255440075
+      SNAPOFFS 0
+      LENGTH 8.25575963718825
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C1912C38-6019-4F56-9394-44BAA81CB540}
+      IID 12
+      NAME Creepy-whispering-sound-effect.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E4A77396-1038-455A-88BF-DDAF8F9ED9BE}
+      <SOURCE MP3
+        FILE "Media\Creepy-whispering-sound-effect.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 79.13929036541006
+      SNAPOFFS 0
+      LENGTH 8.25575963718825
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {69636140-75FC-49A7-B196-DFBFD4B6C587}
+      IID 12
+      NAME Creepy-whispering-sound-effect.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {FC625060-E77A-4AD8-BA27-7FD431978754}
       <SOURCE MP3
         FILE "Media\Creepy-whispering-sound-effect.mp3" 1
       >
@@ -431,7 +485,11 @@
       VOLTYPE 1
       PT 0 0.19952623 0
       PT 49.30246904 0.15488166 0
-      PT 85.97118039 1.88829816 0
+      PT 86.14470473 0.89125094 0
+      PT 88.22443712 0.69183097 0
+      PT 95.33931108 0.77185164 0
+      PT 106.61364981 0.88534918 0
+      PT 115.45056452 1.88829816 0
     >
     <PANENV2
       EGUID {3EEB3868-C9F1-430E-B330-44BDE32AAC38}
@@ -460,6 +518,28 @@
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {D776B65E-62C5-45E3-A1CC-B8431B2AE37A}
+      <SOURCE MP3
+        FILE "Media\Horror-scary-breathing.mp3" 1
+      >
+    >
+    <ITEM
+      POSITION 88.33389671491828
+      SNAPOFFS 0
+      LENGTH 27.11616780045358
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {DE28917B-0C93-4D07-9954-802900BD937B}
+      IID 13
+      NAME Horror-scary-breathing.mp3
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {38D5D1BF-EC4D-4419-8846-C9FAF35F5D81}
       <SOURCE MP3
         FILE "Media\Horror-scary-breathing.mp3" 1
       >
@@ -499,8 +579,22 @@
       DEFSHAPE 0 -1 -1
       VOLTYPE 1
       PT 0 0.01995262 0
-      PT 85.35489952 0.06309573 0
-      PT 90.28514643 1 0
+      PT 59.17982476 0.04620103 0
+      PT 63.14588397 0.00000377 0
+      PT 71.23353414 0 0
+      PT 85.35489952 0.04466836 0
+      PT 88.96415181 0.39602058 0
+      PT 88.96415181 0.03116407 0
+      PT 89.50851287 0.16545337 0
+      PT 100.94009532 1.07151931 0
+      PT 118.59294712 0.36698786 0 0 1
+      PT 124.81421647 0.00769858 0
+      PT 130.71358093 0 0
+      PT 144.73299815 0.06169942 0
+      PT 144.73349815 0.38420199 0
+      PT 147.06647416 0.41014612 0
+      PT 152.66561658 0.50570134 0
+      PT 167.2078337 1 0
     >
     <PANENV2
       EGUID {14BC86B5-29C9-4CA2-B3B7-D9747180BA03}
@@ -529,6 +623,28 @@
       PLAYRATE 1 1 0 -1 0 0.0025
       CHANMODE 0
       GUID {25BFC050-2C6B-4D61-A277-4620BB7A6802}
+      <SOURCE WAVE
+        FILE "Media\70267__dobroide__20090405tictacmix.wav"
+      >
+    >
+    <ITEM
+      POSITION 88.96415180504668
+      SNAPOFFS 0
+      LENGTH 55.76884634586317
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5D565438-2FB9-4352-9B09-7B33DF0689FB}
+      IID 4
+      NAME 70267__dobroide__20090405tictacmix.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 14.23115365413602
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {BEE6877E-125D-40D0-A1BC-EB4CDB5BC30A}
       <SOURCE WAVE
         FILE "Media\70267__dobroide__20090405tictacmix.wav"
       >
@@ -678,72 +794,6 @@
       GUID {3EFCC496-F937-4D38-BA6D-2A82104AAAD7}
       <SOURCE WAVE
         FILE "Media\506842__miksmusic__suspense-tension-build-up-sound-effect-5.wav"
-      >
-    >
-    <ITEM
-      POSITION 130.95968338398404
-      SNAPOFFS 0
-      LENGTH 9.67861678004522
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {67EAF159-B13D-4A6F-893B-18C741ACCE8C}
-      IID 7
-      NAME 427414__mega-x-stream__dinosaur-dragon-growls.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {54A64D70-55AE-43D7-BCEA-91FFEE778AD1}
-      <SOURCE WAVE
-        FILE "Media\427414__mega-x-stream__dinosaur-dragon-growls.wav"
-      >
-    >
-    <ITEM
-      POSITION 142.66901978066969
-      SNAPOFFS 0
-      LENGTH 42.36930933011246
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {1128DCF3-4471-4CED-A757-DF29069AD7AC}
-      IID 7
-      NAME 427414__mega-x-stream__dinosaur-dragon-growls.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {113135E2-DA83-48A7-9AB9-E1E405AA5F60}
-      <SOURCE WAVE
-        FILE "Media\427414__mega-x-stream__dinosaur-dragon-growls.wav"
-      >
-    >
-    <ITEM
-      POSITION 188.7360142886829
-      SNAPOFFS 0
-      LENGTH 42.36930933011249
-      LOOP 1
-      ALLTAKES 0
-      FADEIN 1 0 0 1 0 0 0
-      FADEOUT 1 0 0 1 0 0 0
-      MUTE 0 0
-      SEL 0
-      IGUID {0C0E0AFA-32DF-40EF-A1EC-AD489A46F7CF}
-      IID 7
-      NAME 427414__mega-x-stream__dinosaur-dragon-growls.wav
-      VOLPAN 1 0 1 -1
-      SOFFS 0
-      PLAYRATE 1 1 0 -1 0 0.0025
-      CHANMODE 0
-      GUID {EA3615CE-5092-4C1B-B5AA-8D9919D8A6A8}
-      <SOURCE WAVE
-        FILE "Media\427414__mega-x-stream__dinosaur-dragon-growls.wav"
       >
     >
   >
@@ -902,6 +952,530 @@
       GUID {C061D659-35B0-447B-AEBB-CB40CA37683A}
       <SOURCE VORBIS
         FILE "Media\244417__lennyboy__scaryviolins.ogg"
+      >
+    >
+  >
+  <TRACK {112A28F4-8D64-4E99-8335-168613727715}
+    NAME 268023__dheming__breaking_ice_01
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {112A28F4-8D64-4E99-8335-168613727715}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 41.21590949010038
+      SNAPOFFS 0
+      LENGTH 4.04382508201377
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {B2B77344-89A8-45C1-BA48-98DB6608423A}
+      IID 24
+      NAME 268023__dheming__breaking_ice_01.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {CCEEFEB3-4448-42F8-B9D6-D1D38021C77C}
+      <SOURCE WAVE
+        FILE "Media\268023__dheming__breaking_ice_01.wav"
+      >
+    >
+  >
+  <TRACK {3C54D25E-5112-4C0F-AB87-DCD2FB54485B}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {3C54D25E-5112-4C0F-AB87-DCD2FB54485B}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 45.25973457214797
+      SNAPOFFS 0
+      LENGTH 12
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {424E4E3F-71A8-49AD-9C9B-659A68642B42}
+      IID 25
+      NAME 506843__miksmusic__creepy-tension-rise-build-up-1.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {832FEEB0-B066-4B06-9A22-A9F6E02D369D}
+      <SOURCE WAVE
+        FILE "Media\506843__miksmusic__creepy-tension-rise-build-up-1.wav"
+      >
+    >
+    <ITEM
+      POSITION 102.18434918866377
+      SNAPOFFS 0
+      LENGTH 12.75
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {EFEBADC4-B77D-46CD-BE1A-E689C1F76925}
+      IID 40
+      NAME 318776__metaepitome__creepy-cinematic-hit.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {66DD7349-5182-4A6B-9023-1BB2FF3E4654}
+      <SOURCE WAVE
+        FILE "Media\318776__metaepitome__creepy-cinematic-hit.wav"
+      >
+    >
+  >
+  <TRACK {181E620D-55C0-4DB8-A106-E90D3C9441D1}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {181E620D-55C0-4DB8-A106-E90D3C9441D1}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 45.33750043911042
+      SNAPOFFS 0
+      LENGTH 9.67861678004522
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {4B3862F8-895F-435A-A37E-B6FDBC3DBD3C}
+      IID 7
+      NAME 427414__mega-x-stream__dinosaur-dragon-growls.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {1D0DADD9-D784-4B52-A360-D5E48431E8E9}
+      <SOURCE WAVE
+        FILE "Media\427414__mega-x-stream__dinosaur-dragon-growls.wav"
+      >
+    >
+    <ITEM
+      POSITION 69.50320358215042
+      SNAPOFFS 0
+      LENGTH 9.67861678004525
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {FCB27882-952D-434C-83D7-4498E4583779}
+      IID 7
+      NAME 427414__mega-x-stream__dinosaur-dragon-growls.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {E9307514-A152-4D73-9426-854C4D6E7A30}
+      <SOURCE WAVE
+        FILE "Media\427414__mega-x-stream__dinosaur-dragon-growls.wav"
+      >
+    >
+    <ITEM
+      POSITION 88.33389671491828
+      SNAPOFFS 0
+      LENGTH 9.67861678004526
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {2A4F24C4-8783-437D-9074-E3A0A7606CD5}
+      IID 7
+      NAME 427414__mega-x-stream__dinosaur-dragon-growls.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {C8583B87-D309-435B-B6B8-798CC909A075}
+      <SOURCE WAVE
+        FILE "Media\427414__mega-x-stream__dinosaur-dragon-growls.wav"
+      >
+    >
+    <ITEM
+      POSITION 98.01251349496354
+      SNAPOFFS 0
+      LENGTH 9.67861678004532
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {1BC7DC88-CB6A-4257-A024-DBCEC5B2E9BF}
+      IID 7
+      NAME 427414__mega-x-stream__dinosaur-dragon-growls.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {0FFA5D0F-972B-429C-AFDF-17959A58737F}
+      <SOURCE WAVE
+        FILE "Media\427414__mega-x-stream__dinosaur-dragon-growls.wav"
+      >
+    >
+  >
+  <TRACK {3F0BF764-7520-4897-B396-2749900B4DC9}
+    NAME 646251__ulrich_wehner__horror-build-up-16_what-twisted-mind
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {3F0BF764-7520-4897-B396-2749900B4DC9}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 44.55984176948589
+      SNAPOFFS 0
+      LENGTH 30.8036875
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {C6DA4559-4635-4125-9E5D-8750A4B72B0D}
+      IID 27
+      NAME 646251__ulrich_wehner__horror-build-up-16_what-twisted-mind.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {B15882E7-1B7A-4C2D-83F5-9279719846BC}
+      <SOURCE WAVE
+        FILE "Media\646251__ulrich_wehner__horror-build-up-16_what-twisted-mind.wav"
+      >
+    >
+  >
+  <TRACK {35E6F244-BC60-4CAB-84A9-B1620303D210}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 1
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {35E6F244-BC60-4CAB-84A9-B1620303D210}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <VOLENV2
+      EGUID {062F92F0-7B61-41CF-91DB-4E704042A989}
+      ACT 1 -1
+      VIS 1 1 1
+      LANEHEIGHT 0 0
+      ARM 0
+      DEFSHAPE 0 -1 -1
+      VOLTYPE 1
+      PT 0 1 0
+      PT 24.96234329 1 0
+      PT 34.75110179 0.91490169 0
+      PT 42.70695339 0.92900921 0
+      PT 42.70745339 1 0
+      PT 55.14999211 1 0
+      PT 64.75179221 0.6527966 0
+      PT 67.90098347 0 0
+      PT 78.17729179 0.68375123 0
+      PT 87.11005997 0.62505401 0
+      PT 88.263759 0.63302534 0
+      PT 88.264259 0.65312388 0
+      PT 90.03866041 0.66682675 0
+      PT 90.03966041 1 0
+      PT 99.38477798 1 0
+      PT 108.98657808 0.6527966 0
+      PT 114.63551791 0.6459938 0
+      PT 122.41207766 0.68375123 0
+      PT 131.34534584 0.62505084 0
+      PT 131.34584584 0.9754485 0
+      PT 133.92583298 1 0
+    >
+    <ITEM
+      POSITION 42.70745339348353
+      SNAPOFFS 0
+      LENGTH 44.4031065759635
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {0050CA71-2C0B-4425-8B13-C9651BD26991}
+      IID 5
+      NAME 370937__inspectorj__horror-violin-tremolo-cluster-b.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {05C8416F-5E8A-466F-8212-92C5A4B51C8F}
+      <SOURCE WAVE
+        FILE "Media\370937__inspectorj__horror-violin-tremolo-cluster-b.wav"
+      >
+    >
+    <ITEM
+      POSITION 88.26425900238461
+      SNAPOFFS 0
+      LENGTH 43.08108683760118
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {663442E9-CE1E-466A-B0C2-05BD2DC0C091}
+      IID 5
+      NAME 370937__inspectorj__horror-violin-tremolo-cluster-b.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {DCF3F4D7-5EA4-4A24-8298-ED35AF12B099}
+      <SOURCE WAVE
+        FILE "Media\370937__inspectorj__horror-violin-tremolo-cluster-b.wav"
+      >
+    >
+  >
+  <TRACK {FC44537E-E60D-4581-953B-22FBE3179DFF}
+    NAME 181805__klankbeeld__heart-beat-increasing-116642
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {FC44537E-E60D-4581-953B-22FBE3179DFF}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 9.79849923726915
+      SNAPOFFS 0
+      LENGTH 57.03562358276643
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {40712450-9F2E-4EE0-B400-2703FABE7256}
+      IID 29
+      NAME 181805__klankbeeld__heart-beat-increasing-116642.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {544EFA1C-9395-4B36-BBFF-CEBEAD916687}
+      <SOURCE WAVE
+        FILE "Media\181805__klankbeeld__heart-beat-increasing-116642.wav"
+      >
+    >
+  >
+  <TRACK {ECB48212-4E06-4334-924F-F1CE598DDC0D}
+    NAME 648155__eminyildirim__cinematic-impact-boom-drama-2022
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1.3372247360841 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {ECB48212-4E06-4334-924F-F1CE598DDC0D}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 67.57853839037213
+      SNAPOFFS 0
+      LENGTH 17.4999999999998
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {5C715C6D-754C-4876-BC98-C9F2C0BF3725}
+      IID 30
+      NAME 648155__eminyildirim__cinematic-impact-boom-drama-2022.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {420CE453-C5BC-4170-B1BE-A8B097297D36}
+      <SOURCE WAVE
+        FILE "Media\648155__eminyildirim__cinematic-impact-boom-drama-2022.wav"
+      >
+    >
+  >
+  <TRACK {A7AE7288-BD63-445E-8719-F12AF9AC307F}
+    NAME ""
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {A7AE7288-BD63-445E-8719-F12AF9AC307F}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 103.50636892702548
+      SNAPOFFS 0
+      LENGTH 4.92258333333329
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {9BE26550-1BF7-40F0-BC4B-7FA044A665BA}
+      IID 42
+      NAME 448083__tyops__tension-build-up-02.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {718DD369-18A1-47AD-BF65-3BFEF1F2C9F1}
+      <SOURCE WAVE
+        FILE "Media\448083__tyops__tension-build-up-02.wav"
       >
     >
   >
